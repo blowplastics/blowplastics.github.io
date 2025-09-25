@@ -1,9 +1,200 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta http-equiv="refresh" content="0; url=https://akhilcvinod.wixsite.com/blowplastics" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blow Plastics | Maintenance</title>
+    <!-- Font Awesome CDN for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        :root {
+            --primary-blue: #003366;
+            --accent-red: #d32f2f;
+            --accent-lightred: #ffcdd2;
+            --white: #fff;
+            --light-blue: #e3eafc;
+        }
+
+        body {
+            background: var(--light-blue);
+            color: var(--primary-blue);
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 650px;
+            width: 98vw;
+            margin: auto;
+            background: var(--white);
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.10);
+            margin-top: 6vh;
+            text-align: center;
+            border-top: 8px solid var(--accent-red);
+            /* Remove direct padding, use inner wrapper for content padding */
+        }
+
+        .container-inner {
+            padding: 2.5rem 2.2rem 2rem 2.2rem;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            max-width: 30vw;
+            max-height: 30vw;
+            object-fit: contain;
+            margin-bottom: 1.2em;
+            border-radius: 50%;
+            background: var(--white);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+        }
+
+        h1 {
+            color: var(--primary-blue);
+            margin-bottom: 0.5em;
+            font-size: 2.1em;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                max-width: 98vw;
+                padding: 1.2rem 0.5rem 1.2rem 0.5rem;
+                margin-top: 2vw;
+            }
+
+            .logo {
+                width: 60px;
+                height: 60px;
+                max-width: 22vw;
+                max-height: 22vw;
+            }
+
+            h1 {
+                font-size: 1.3em;
+            }
+
+            .details,
+            .info,
+            .contact,
+            .footer {
+                font-size: 0.98em;
+            }
+        }
+
+        .details {
+            margin: 1.5em 0;
+            color: #333;
+        }
+
+        .info {
+            background: var(--accent-lightred);
+            border-radius: 8px;
+            padding: 1em;
+            margin-bottom: 1em;
+            color: var(--primary-blue);
+            font-weight: 450;
+        }
+
+        .contact {
+            margin-top: 2em;
+            font-size: 0.98em;
+            color: var(--primary-blue);
+        }
+
+        .footer {
+            margin-top: 2em;
+            font-size: 0.9em;
+            color: #888;
+        }
+
+        a {
+            color: var(--accent-red);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .socials {
+            margin-top: 1.2em;
+            display: flex;
+            justify-content: center;
+            gap: 1.2em;
+        }
+
+        .socials a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: var(--accent-lightred);
+            color: var(--accent-red);
+            font-size: 1.3em;
+            transition: background 0.2s;
+            text-decoration: none !important;
+        }
+
+        .socials a:hover {
+            background: var(--accent-red);
+            color: #fff;
+            text-decoration: none !important;
+        }
+    </style>
 </head>
 
-<body><p>Site is under maintenance. Redirecting...</p></body>
+<body>
+    <div class="container">
+        <div class="container-inner">
+            <img src="logo.png" alt="Blow Plastics Logo" class="logo" loading="lazy" />
+            <h1>We'll Be Back Soon!</h1>
+            <div class="details">
+                Our website is currently undergoing scheduled maintenance to serve you better.<br>
+                We appreciate your patience and understanding.
+            </div>
+            <div class="info">
+                <strong>BLOW PLASTICS</strong><br>
+                <em>Striving to serve you better...<br> By bringing you the convenience of plastic</em><br><br>
+                Since 1987, delivering top-quality regular and custom blow-molded plastic products. Advanced manufacturing,
+                strict quality control, and ongoing R&D ensure durable, vibrant, and cost-effective solutions.
+            </div>
+            <div class="info">
+                <strong>Estimated Time to Restore:</strong><br>
+                <span>September 30, 2025, 6:00 PM IST</span>
+            </div>
+            <div class="contact">
+                <strong>Contact Us:</strong><br>
+                Email: <a href="mailto:info@blowplastics.com">info@blowplastics.com</a><br>
+                Phone: +91 863 745 9470
+                <div class="socials">
+                    <a href="https://in.linkedin.com/company/blowplastics" target="_blank" title="LinkedIn"
+                        aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.instagram.com/blowplastics" target="_blank" title="Instagram"
+                        aria-label="Instagram">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.facebook.com/p/Blow-Plastics-100068925632966/" target="_blank" title="Facebook"
+                        aria-label="Facebook">
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer">
+                &copy; 2025 Blow Plastics. All rights reserved.
+            </div>
+        </div>
+    </div>
+</body>
 
 </html>
